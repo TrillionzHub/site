@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(155, 149, 139);
+    /* text-align: center; */
+    width: 100%;
+}
+
+
+.melodia{
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 20px;
+    
+    padding: 20px;
+    background-color: rgb(202, 197, 197);
+
+}
+
+h3{
+    text-align: center;
+    color:red;
+    text-shadow: 1px 1px grey;
+}
+label{
+    font-weight: bold;
+}
+
+input{
+    padding:15px;
+    border: 1px solid #d5d2d2;
+    border-radius: 5px; 
+    box-sizing: border-box;
+    outline: none;
+    width: 90%;
+}
+
+select{
+    padding:15px;
+    border: 1px solid #d5d2d2;
+    border-radius: 5px; 
+    box-sizing: border-box;
+    outline: none;
+    width: 90%;
+
+}
+
+textarea{
+    padding:15px;
+    border: 1px solid #d5d2d2;
+    border-radius: 5px; 
+    box-sizing: border-box;
+    outline: none;
+    width: 90%;
+}
+
+button{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    background:red;
+    border: 1px solid red;
+    padding: 15px;
+    margin-left: 50px;
+    width: 80%;
+    border-radius: 7px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    background-color: rgb(234, 61, 61);
+}

@@ -1,0 +1,81 @@
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: rgb(253, 206, 206);
+ }
+
+ .log-in{
+    width: 360px;
+    background-color: #fff;
+    border-radius: 13px;
+    box-shadow: 8px 8px 5px rgb(141, 140, 140);
+    transition-duration: 0.3s; 
+ }
+
+ .log-in:hover{
+     background-color: rgb(237, 235, 235);
+ }
+ 
+
+
+
+ label{
+    font-weight: 600;
+ }
+
+  .title{
+    line-height: 80px;
+    background:red;
+    padding-left: 125px ;
+    border-radius: 7px 7px 0px 0px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+ }
+
+
+ .login-form form{
+    padding: 30px 20px 25px 20px;
+
+ }
+
+ .log-in form input  {
+    height: 95%;
+    width: 95%;
+    margin-top: 20px;
+    margin-left:5px ;
+    box-sizing: border-box;
+ }
+
+ input{
+    border-radius: 12px;
+    border:1px solid red;
+    padding: 12px; 
+    /* box-shadow: 3px 3px 1px rgb(93, 93, 93);  */
+    background-color: rgb(213, 209, 209);
+    ;  
+    outline: none;
+ }
+
+ ::placeholder{
+    color:rgb(46, 45, 45);
+ }
+
+
+ button{
+    background-color: red; 
+    border: 1px solid red;
+    border-radius: 40px;
+    color: white;
+    font-weight: bold;
+    padding:10px ;
+    width: 30%; 
+    box-shadow: 3px 3px 1px rgb(143, 142, 142);  
+    transition-duration: 0.3s;  
+    cursor: pointer;
+ }
+
+ button:hover{
+    background: rgb(184, 31, 31);
+ }
